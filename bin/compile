@@ -36,7 +36,7 @@ EOF
 
 if [ ! -x $NIM_BIN ]; then
     nim_repo=$(cat_or $ENV_DIR/NIM_REPO "git://github.com/nim-lang/Nim.git")
-    nim_branch=$(cat_or $ENV_DIR/NIM_BRANCH "devel")
+    nim_branch=$(cat_or $ENV_DIR/NIM_BRANCH "version-1-2")
 
     echo "Installing Nim..." | arrow
 
