@@ -59,3 +59,5 @@ fi
 echo "Building app" | arrow
 cd $BUILD_DIR
 $NIMBLE_BIN build --accept
+$NIMBLE_BIN scss
+mkdir ./tmp
